@@ -22,6 +22,7 @@ public class FullTimeEmployee extends Employee {
     public FullTimeEmployee(String name, int paymentPerHour) {
         super(name,paymentPerHour);
         this.name = name;
+        
         this.paymentPerHour = paymentPerHour;
     }
 
